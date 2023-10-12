@@ -1,0 +1,163 @@
+@media(max-width:1390px) {
+    body {
+        align-items: flex-start;
+        overflow: auto;
+    }
+
+    .container {
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    
+    #logo_desktop {
+        display: none;
+    }
+
+    #logo_mobile {
+        cursor: pointer;
+        width: 100%;
+        max-width: 810px;
+        display: block;
+        padding: 1em;
+    } 
+
+    .hero_desktop  {
+        width: 100%;
+        max-width: 810px;
+        max-height: 500px;
+        overflow: hidden;
+    }
+
+    .hero_desktop img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .text-content {
+        text-align: center;
+        margin: 4em 0em 0em 0em;
+    }
+
+    .text-content h1 {
+        margin: auto;
+    }
+
+    .text-content h2 {
+        max-width: 600px;
+        margin: auto;
+    }
+
+    .text-content p {
+        margin: auto;
+        margin-top: 1em;
+    }
+
+    .input-email {
+        max-width: 430px;
+        margin: auto;
+        margin-bottom: 10em;
+    }
+
+    #email {
+        display: block;
+        max-width: 367px;
+        margin: auto;
+        margin-top: 2em;
+    }
+
+    #btn {
+        margin: 1.8em 0em 0em 23.1em;
+    }
+
+    .error-email img {
+        margin-left: 9em;
+    }
+
+    .error-email span, .sucess-email span {
+        padding-left: 4.7em;
+    }
+
+    .attribution {
+        bottom: unset;
+        margin-top: 72em;
+    }
+}
+
+@media(max-width:440px){
+    body {
+        background-image:url('');
+    }
+
+    .container {
+        min-width: 350px;
+    }
+    
+    #logo_mobile img {
+        width: 130px;
+    }
+
+    .hero_desktop{
+        display: none;
+    }
+
+    .hero-mobile {
+        width: 100%;
+        display: block;
+    }
+
+    .hero-mobile img {
+       width: 100%;
+    }
+
+    .text-content {
+        text-align: center;
+        max-width: 375px;
+        margin: 2em 0em 0em 0em;
+    }
+
+    .text-content h2 {
+        max-width: 348px;
+    }
+
+    .text-content h1, .text-content h2 {
+        font-size: 2.7rem;
+    }
+
+    .text-content p {
+        max-width: 350px;
+        line-height: 25px;
+        margin: auto;
+        margin-top: 1.5em;
+    }
+    
+    .input-email {
+        max-width: 375px;
+    }
+
+    #email {
+        display: block;
+        width: 320px;
+        margin: auto;
+        margin-top: 2em;
+    }
+
+    .error-email img {
+        width: 20px;
+        margin: -2.3em 0em 0em 6em;
+    }
+
+    .error-email span, .sucess-email span {
+        padding-left: 3.4em;
+    }
+    
+    #btn {
+        margin: 1.8em 0em 0em 18.2em;
+    }
+
+    .attribution {
+        margin-top: 65.5em;
+        font-size: .8rem;
+    }
+}
